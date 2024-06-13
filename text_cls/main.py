@@ -76,6 +76,7 @@ if __name__ == "__main__":
     model = Model()
     train(model,dataset)  
     print(model)
-    
+    print(model)
+
 
 
