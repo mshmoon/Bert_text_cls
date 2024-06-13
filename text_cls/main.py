@@ -69,7 +69,8 @@ def train(model, dataset):
             optimizer.step()
             print(epoch,i,loss)
 
-
+    print()
+    print()
 if __name__ == "__main__":
     label,content = process_data("dataset/train.json")
     dataset = My_Dataset(content,label)     
